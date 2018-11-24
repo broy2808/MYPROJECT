@@ -1,0 +1,185 @@
+
+body,html {
+  padding-top: 23px;
+  background-position: center;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.first{
+   position:flex;
+   height:850px;
+   width: 100%;
+   background-color: #f8f9fa !important;
+   background-image: url("../img/cover6.jpg") !important;
+   background-size:  100% 100%;
+   text-align: center!important;
+   box-sizing: border-box;
+   padding-top: 330px;
+}
+
+.featurette{
+  background-color:  white;
+  /* background-image: url("../img/img5.jpg") !important;
+  background-size: cover; */
+  display:    flex;
+  text-align: left;
+  text-decoration-style: solid;
+  text-transform:    inherit;
+  font: Comic ;
+  font-family: sans-serif;
+  color: black;
+  border-radius: 100px;
+  border-spacing: 5px;
+  border-width: thick;
+  margin-left: 150px;
+  margin-right: 150px;
+  word-wrap: break-word;
+  text-indent: 30px;
+}
+.modal-content{
+  background-color: white;
+  /* background-image: url("../img/img5.jpg") !important;
+  background-size: cover; */
+  display: flex;
+  text-align:  center;
+  text-decoration-style: solid;
+  text-transform: none;
+  font: Comic ;
+  font-family: sans-serif;
+  color: black;
+  border-radius: 100px;
+  border-spacing: 5px;
+  border-width: thick;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.information1{
+  background-color: white;
+  /* background-image: url("../img/img5.jpg") !important;
+  background-size: cover; */
+  display: flex;
+  text-align:  center;
+  text-decoration-style: solid;
+  text-transform: none;
+  font: Comic ;
+  font-family: sans-serif;
+  color: black;
+  border-radius: 100px;
+  border-spacing: 5px;
+  border-width: thick;
+  right:  auto;
+  border-width: thick;
+  margin-left: 150px ;
+  margin-right: 150px ;
+
+}
+
+
+.page2{
+  background-color: #64b5f6;
+  background-image: url("../img/img5.jpg") !important;
+  background-size: cover;
+  display:    flex;
+  text-align: left;
+  text-decoration-style: solid;
+  text-transform:    inherit;
+  font: Comic ;
+  font-family: sans-serif;
+  color: black;
+  border-radius: 100px;
+  border-width: thick;
+  margin-left: 150px;
+  margin-right: 150px;
+  word-wrap: break-word;
+  text-indent: 30px;
+
+}
+
+.background2{
+  background-image: url("../img/img4.jpg") !important;
+  background-size: cover;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.space {
+  margin: 10px;
+
+}
+
+
+@media (min-width: 768px) {
+  .featurette-heading {
+      margin-top: 70px;
+      font-size: 80px;
+      text-align: center;
+      font-family: Lobster;
+    }
+    .lead {
+      font-size: 30px;
+      font-family: Lobster;
+    }
+    .lead1 {
+      font-size: 20px;
+      font-family: Lobster;
+      text-align: center;
+      text-overflow: ellipsis;
+    }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 70px;
+    font-size: 80px;
+    font-family: Lobster;
+  }
+  .lead {
+    font-size: 30px;
+    font-family: Lobster;
+  }
+  .lead1 {
+    font-size: 20px;
+    font-family: Lobster;
+    text-align: center;
+    text-overflow: ellipsis;
+  }
+}
+/*---------------*/
+.fa {
+    padding: 20px;
+    font-size: 60px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+
+/* Github*/
+.fa-github {
+  background: #444444;
+  color: white;
+}
+
+/* Linkedin*/
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
